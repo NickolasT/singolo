@@ -1,0 +1,121 @@
+body{
+    width: 1020px;
+    color: white;
+    margin: auto;
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    bottom: 0; 
+    right: 0;
+}
+
+footer{
+    background-color: rgb(47, 45, 56);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.GetAQuote{
+    background-color: rgb(199, 73, 73);
+    border-bottom: 5px solid  rgb(173, 89, 89);
+    padding: 40px;
+}
+
+.formsAndContact{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+}
+
+.inputs{
+    width: 650px;
+    height: 40px;
+    background-color: rgb(158, 60, 60);
+    border-radius: 5px;
+    padding-left: 10px;
+    border: none;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color:rgb(190, 184, 184);
+}
+
+.inputs:hover{
+    background-color:white;
+    color: rgb(199, 73, 73);
+}
+
+::placeholder{
+    color: rgb(199, 73, 73);
+    align-items: flex-start;
+    font-family: LatinRegular;
+}
+
+textarea{
+    padding-top: 10px;
+    padding-left: 0px;
+    font-family: LatinRegular;
+    resize: none;
+}
+
+#describeDetails{
+    height: 200px;
+    color: rgb(199, 73, 73);
+}
+
+#button{
+    width: 60px;
+    background-color:rgb(158, 60, 60);
+    border-radius: 5px;
+    border-color: rgb(190, 184, 184);
+    border: none;
+    color: rgb(199, 73, 73);
+}
+
+#button:hover{
+    background-color:white;
+}
+
+
+a{
+    text-decoration: none;
+    color:rgb(190, 184, 184);
+}
+
+.icon:hover{
+    filter: alpha(Opacity=50);
+    opacity: 0.5; 
+}
+
+h1,h2,p{
+    color:rgb(190, 184, 184);
+}
+
+h1{
+    font-family: Latin900;
+}
+
+h2{
+    font-family: Latin700;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+d
+p{
+    font-family: Latin300;
+    font-size: 17px;
+}
+
+.contactInformationsText{
+    font-size: small;
+}
