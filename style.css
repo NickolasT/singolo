@@ -10,7 +10,7 @@ body{
 }
 
 header{
-	height: 120px;
+	height: 90px;
 	border-bottom: 5px;
 	border-color: indigo;
 	background-color: rgb(24, 24, 46);
@@ -21,7 +21,7 @@ header{
 
 .photos{
 	background-color: rgb(199, 73, 73);
-	height: 600px; 
+	height: 595px; 
 	display:flex;
 	justify-content: center; 
 	align-items: center;
@@ -44,13 +44,15 @@ header{
 .singolo{
 	color: white;
 	font-family: Latin900;
-	font-size: larger;
+	font-size: 24px;
+	margin-top: 15px
 }
 
 .star{
 	color: rgb(199, 73, 73);
 	font-family: Latin900;
-	font-size: larger;
+	font-size: 24px;
+	margin-top: 15px
 }
 
 #home{
@@ -68,7 +70,7 @@ header{
 	left: 0; 
 	bottom: 0; 
 	right: 40px;
-	padding: 30px;
+	padding: 20px;
 	padding-right: 0px;
 	vertical-align: center;
 }
@@ -91,11 +93,15 @@ a{
 }
 
 .post-section{
-	width: 280px;
+	width: 290px;
 	display: flex;
 	align-items: center;
 	padding-left: 10px;
 	padding-right: 10px;
+}
+
+.contactInformationsText{
+	text-align: justify;
 }
 
 .contentPart1{
@@ -124,7 +130,7 @@ a{
 
 .our-services{
 	padding: 40px;
-	padding-bottom: 0px;
+	padding-bottom: 40px;
 }
 
 .headerPart1{
@@ -149,6 +155,7 @@ a{
 	padding: 40px;
 	padding-top: none;
 	padding-bottom: 60px;
+	
 }
 
 .post-photos{
@@ -213,9 +220,11 @@ a{
 .aboutUs{
 	background-color: rgb(220, 220, 220);
 	border-bottom: 5px solid  rgb(200, 200, 200);
-	padding: 40px;
-	padding-top: none;
-	padding-bottom: 60px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 0px;
+	height: 730px;
+	padding-bottom: 0px;
 }
 
 .textPart2{
@@ -227,6 +236,8 @@ a{
 
 .h1part2{
 	color: rgb(102, 102, 102);
+	margin-top: 0px;
+	padding-top: 40px;
 }
 
 .h2Part2{
@@ -238,6 +249,7 @@ a{
 .textByPhoto{
 	color: rgb(102, 102, 102);
 	margin-top: 0px;
+	text-align: justify;
 }
 
 .post-photo{
@@ -257,18 +269,28 @@ footer{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	height: 70px;
 }
 
 .GetAQuote{
 	background-color: rgb(199, 73, 73);
 	border-bottom: 5px solid  rgb(173, 89, 89);
 	padding: 40px;
+	height: 650px;
+	padding-bottom: 0px;
+	padding-top: 0px;
 }
 
 .formsAndContact{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
+	margin-top: 40px;
+}
+
+.h1GetAQuote{
+	padding-top: 40px;
+	margin-top: 0px
 }
 
 .forms{
@@ -278,13 +300,14 @@ footer{
 }
 
 .inputs{
-	width: 650px;
+	width: 620px;
 	height: 40px;
 	background-color: rgb(158, 60, 60);
 	border-radius: 5px;
 	padding-left: 10px;
 	border: none;
-	margin-bottom: 5px;
+	margin-top: 5px;
+	margin-bottom: 10px;
 	margin-top: 5px;
 	color:rgb(190, 184, 184);
 }
@@ -362,7 +385,7 @@ p{
 	padding: 5px;
 	font-family: Latin700;
 	font-size: small;
-	font-size: 14px;
+	font-size: 12px;
 }
 
 .nav1{
